@@ -25,12 +25,12 @@ for example to run withdraw command use following command:<br>
 [java -jar target/BankingUI-1.0-SNAPSHOT-jar-with-dependencies.jar withdraw --accountId=1 --amount=200000]<br>
 </p>
 executing the command without specifying any options(--account --amount) will provide you with the following message to assist you:<br>
-
-Missing required options: '--accountId=<arg0>', '--amount=<arg1>'
-Usage:  withdraw -a=<arg1> -i=<arg0>
-Withdraw a specified amount from the account balance
-  -a, --amount=<arg1>      the amount to withdraw
-  -i, --accountId=<arg0>
+<br>
+Missing required options: '--accountId=arg0', '--amount=arg1' <br>
+Usage:  withdraw -a=arg1 -i=arg0 <br>
+Withdraw a specified amount from the account balance <br>
+  -a, --amount=arg1      the amount to withdraw <br>
+  -i, --accountId=arg0 <br>
 
 </body>
 </html>
