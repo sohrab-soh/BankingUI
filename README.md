@@ -8,7 +8,7 @@ To run the generated executable file, run the following command:<br>
 Once you run this command, you should see the following output:<br>
 <br>
 <p>
-<p style="color: red">
+<p style="color: #f03c15">
 Missing required subcommand<br>
 Usage:  [-hV] [COMMAND]<br>
 This is Azkivam CLI<br>
