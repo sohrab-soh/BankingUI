@@ -14,7 +14,7 @@ import org.apache.http.util.EntityUtils;
 import picocli.CommandLine;
 import java.io.IOException;
 
-@CommandLine.Command(description = "This Azkivam CLI", name = "",
+@CommandLine.Command(description = "This is Azkivam CLI", name = "",
         mixinStandardHelpOptions = true, version = "aki 1.0", subcommands = {})
 public class AzkivamUi {
 
