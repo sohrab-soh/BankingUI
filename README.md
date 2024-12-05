@@ -7,6 +7,7 @@ To run the generated executable file, run the following command:<br>
 [java -jar target/BankingUI-1.0-SNAPSHOT-jar-with-dependencies.jar]<br>
 Once you run this command, you should see the following output:<br>
 <br>
+<p style="color:red;">
 Missing required subcommand<br>
 Usage:  [-hV] [COMMAND]<br>
 This is Azkivam CLI<br>
@@ -19,6 +20,7 @@ Commands:<br>
   transfer        Moves funds from one account to another<br>
   withdraw        Withdraw a specified amount from the account balance<br>
   <br>
+<p>
 for example to run withdraw command use folowing command:<br>
 [java -jar target/BankingUI-1.0-SNAPSHOT-jar-with-dependencies.jar --accountId=1 --amount=200000]<br>
 </p>
