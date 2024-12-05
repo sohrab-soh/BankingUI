@@ -7,7 +7,7 @@ To run the generated executable file, run the following command:<br>
 [java -jar target/BankingUI-1.0-SNAPSHOT-jar-with-dependencies.jar]<br>
 Once you run this command, you should see the following output:<br>
 <br>
-<p style="color:red;">
+<p>
 Missing required subcommand<br>
 Usage:  [-hV] [COMMAND]<br>
 This is Azkivam CLI<br>
@@ -21,8 +21,16 @@ Commands:<br>
   withdraw        Withdraw a specified amount from the account balance<br>
   <br>
 <p>
-for example to run withdraw command use folowing command:<br>
-[java -jar target/BankingUI-1.0-SNAPSHOT-jar-with-dependencies.jar --accountId=1 --amount=200000]<br>
+for example to run withdraw command use following command:<br>
+[java -jar target/BankingUI-1.0-SNAPSHOT-jar-with-dependencies.jar withdraw --accountId=1 --amount=200000]<br>
 </p>
+executing the command without specifying any options(--account --amount) will provide you with the following message to assist you:<br>
+
+Missing required options: '--accountId=<arg0>', '--amount=<arg1>'
+Usage:  withdraw -a=<arg1> -i=<arg0>
+Withdraw a specified amount from the account balance
+  -a, --amount=<arg1>      the amount to withdraw
+  -i, --accountId=<arg0>
+
 </body>
 </html>
